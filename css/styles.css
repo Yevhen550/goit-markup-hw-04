@@ -168,6 +168,8 @@ address {
     letter-spacing: 0.02em;
     padding: 24px 0;
     color: var(--primary-dark-color);
+    transition: transform 250ms ease-in-out;
+
 }
 
 .contact-list {
@@ -187,6 +189,7 @@ address {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--primary-slate-color);
+    transition: transform 250ms ease-in-out;
 }
 
 .header-link:hover,
@@ -194,6 +197,7 @@ address {
 .contact-link:hover,
 .contact-link:focus {
     color: var(--active-ocean-color);
+    transform: scale(1.1);
 }
 
 /* #endregion */
@@ -231,11 +235,13 @@ address {
     padding: 16px 32px;
     color: var(--white-background);
     background-color: var(--primary-brand-color);
+    transition: transform 250ms ease-in-out;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--active-ocean-color);
+    transform: scale(1.1);
 }
 
 /* #endregion */
