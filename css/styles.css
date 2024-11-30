@@ -172,6 +172,22 @@ address {
 
 }
 
+.header-link.current {
+    position: relative;
+    color: var(--active-ocean-color);
+}
+
+.header-link.current::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    height: 4px;
+    width: 100%;
+    background: var(--active-ocean-color);
+    border-radius: 2px;
+}
+
 .contact-list {
     display: flex;
     gap: 40px;
@@ -208,7 +224,7 @@ address {
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    background-color: var(--primary-dark-color);
+    background-image: url(../images/hero/hero-bg.png), url(../images/hero/hero-img.jpg);
 }
 
 .hero-title {
