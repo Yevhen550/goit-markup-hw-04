@@ -222,6 +222,9 @@ address {
 /* #region-Hero */
 
 .hero {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
@@ -327,6 +330,7 @@ address {
 .team-item {
     border-radius: 0px 0px 4px 4px;
     background-color: var(--white-background);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-box-wrap {
@@ -369,6 +373,10 @@ address {
 }
 
 .portfolio-item {}
+
+.portfolio-item:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 
 .portfolio-list {
     display: flex;
@@ -433,7 +441,13 @@ address {
     background-color: var(--primary-dark-color);
 }
 
-.footer-container {}
+.footer-container {
+    display: flex;
+}
+
+.footer-first {
+    margin-right: 120px;
+}
 
 .footer-logo {
     display: inline-block;
@@ -446,6 +460,28 @@ address {
     letter-spacing: 0.02em;
     color: var(--cloud-color);
 }
+
+.footer-social {}
+
+.footer-social-text {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-background);
+}
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.footer-social-item {}
+
+.footer-social-link {}
+
+.footer-social-icon {}
 
 /* #endregion */
 
