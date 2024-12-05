@@ -262,7 +262,6 @@ address {
     color: var(--cl-white-background);
     background-color: var(--cl-primary-iris);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    ;
 }
 
 .hero-btn:hover,
@@ -505,7 +504,6 @@ address {
     width: 264px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
     color: var(--cl-light-cloud);
 }
 
@@ -515,6 +513,7 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
     color: var(--cl-white-background);
 }
 
