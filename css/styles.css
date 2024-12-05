@@ -231,7 +231,10 @@ address {
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    background-image: url(../images/hero/hero-bg.png), url(../images/hero/hero-img.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
@@ -258,7 +261,7 @@ address {
     padding: 16px 32px;
     color: var(--cl-white-background);
     background-color: var(--cl-primary-iris);
-    transition: transform 250ms ease-in-out;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
