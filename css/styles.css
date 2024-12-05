@@ -261,13 +261,12 @@ address {
     padding: 16px 32px;
     color: var(--cl-white-background);
     background-color: var(--cl-primary-iris);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: var(--cl-active-ocean);
     transform: scale(1.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* #endregion */
