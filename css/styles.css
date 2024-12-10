@@ -4,6 +4,7 @@
     --cl-primary-iris: #4D5AE5;
     --cl-active-ocean: #404bbf;
     --cl-dark-navy-blue: #2E2F42;
+    --cl-dark-navy-blue-modal: #2E2F42CC;
     --cl-success-green: #31d0aa;
     --cl-text-slate: #434455;
     --cl-subtle-text-light-slate: #8E8F99;
@@ -550,8 +551,6 @@ address {
 }
 
 /* #endregion */
-
-
 
 /* *============================================================================================================================================== */
 /* #region */
